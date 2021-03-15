@@ -6,7 +6,7 @@ name: jd_speed_redpocke_0325
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 0,5,11 * * *'
+    - cron: '5 15,16 * * *'
   watch:
     types: started
   repository_dispatch:
